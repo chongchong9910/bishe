@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find fsrobot)/launch/lidar/$(env ROS_LIDAR).launch" />
+    <include file="$(find fsrobot)/param/navigation/slam_gmapping.xml" />
+    <include file="$(find fsrobot)/param/navigation/move_base.xml" />
+</launch>
